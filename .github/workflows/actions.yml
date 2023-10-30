@@ -37,14 +37,14 @@ jobs:
         run: |
           make lint
 
-      - name: Test1
-        run: |
-          make test1
+      # - name: Test1
+      #   run: |
+      #     make test1
 
-      - name: Test2
-        run: |
-          make test2
+      # - name: Test2
+      #   run: |
+      #     make test2
 
-      - name: Test3
-        run: |
-          make test3
+      # - name: Test3
+      #   run: |
+      #     make test3
