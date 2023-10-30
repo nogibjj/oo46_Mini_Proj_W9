@@ -1,0 +1,50 @@
+name: Python Temp Test
+
+#Trigger entry for both push and pull requests
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+#Specified job(s)
+jobs:
+  #Test jobs to be executed
+  test:
+    #Operating system or environment for exectution
+    runs-on:
+      ubuntu-latest
+
+      #Steps to define the execution of workflow
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+        #install dependencies
+
+      - name: Install dependencies
+        run: |
+          make install
+
+      - name: Format
+        run: |
+          make format
+
+      - name: Lint with ruff
+        run: |
+          make lint
+
+      - name: Test1
+        run: |
+          make test1
+
+      - name: Test2
+        run: |
+          make test2
+
+      - name: Test3
+        run: |
+          make test3
