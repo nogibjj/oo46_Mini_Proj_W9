@@ -16,15 +16,15 @@ This project sets up a [cloud-hosted notebook](https://colab.research.google.com
 
 ### A a histogram of Alcohol content:
 
-![Top Sales Report](output1.png)
+![Alcohol Content](Reports/output1.png)
 
 ### Bar Plot of Average Alcohol Content by Wine Class:
 
-![Top sales by make](output2.png)
+![Average Alcohol](Reports/output2.png)
 
 ### Scatter Plot of Alcohol vs. Color Intensity:
 
-![Top sales by make](output3.png)
+![A vs C ](Reports/output3.png)
 
 
 [def]: https://https://github.com/nogibjj/oo46_iProject_1/actions/workflows/actions.yml
