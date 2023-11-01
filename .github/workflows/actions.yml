@@ -1,4 +1,4 @@
-name: Python Temp Test
+name: Notebook CI
 
 #Trigger entry for both push and pull requests
 on:

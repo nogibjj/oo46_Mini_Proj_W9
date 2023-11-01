@@ -1,4 +1,4 @@
-[![Python_Temp_Demo](https://github.com/nogibjj/oo46_iProject_1/actions/workflows/actions.yml/badge.svg)][def]
+[![Notebook](https://github.com/nogibjj/oo46_iProject_1/actions/workflows/actions.yml/badge.svg)][def]
 
 # Mini Project Week 9
 
