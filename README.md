@@ -2,41 +2,29 @@
 
 # Mini Project Week 9
 
-## The current implementation of the mini project can be executed as follows:
+## Projet Scope:
+This project sets up a [cloud-hosted notebook](https://colab.research.google.com/drive/1dWTQFWUPjORLF0nVZJzGHamJwm-L8rq0?usp=sharing) and demonstrates data manipulation with a sample dataset.
 
-1. All dependencies needed for execution can be found in the [requirement.txt](https://github.com/nogibjj/oo46_iProject_1/blob/main/requirements.txt) file
-2. These dependencies will be installed by github actions using the Make file.
 
-## Mini deliverables:
+# Mini Deliverables:
 
-1. [Jupyter Notebook](https://github.com/nogibjj/oo46_iProject_1/blob/main/notebook.ipynb) with:
+1. [Jupyter Notebook](https://github.com/nogibjj/oo46_Mini_Proj_W9/blob/main//week_9_mini_project.ipynb)
 
-- Cells that perform descriptive statistics using Pandas.
-- Tested by using nbval plugin for pytest
+2. [Sample Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data")
 
-- Run all tests (must test notebook and script and lib)
-- Formats code with Python black
-- Lints code with Ruff
-- Installs code via: pip install -r [requirements.txt](https://github.com/nogibjj/oo46_iProject_1/blob/main/requirements.txt)
+## Data Visualization Output
 
-<!-- 5. [test_script.py](https://github.com/nogibjj/oo46_Mini_Proj_W9/blob/main/test_script.py) to test script
-6. [test_lib.py](https://github.com/nogibjj/oo46_Mini_Proj_W9/blob/main/test_lib.py) to test some library functions -->
-7. GitHub Actions performs all four Makefile commands with badges for
-   each one in the README.md
+### A a histogram of Alcohol content:
 
-## Statistics Analysis
+![Top Sales Report](output1.png)
 
-### Top Sales Report by sales persons from the car sales dataset
+### Bar Plot of Average Alcohol Content by Wine Class:
 
-![Top Sales Report](reports/tsp.png)
+![Top sales by make](output2.png)
 
-### Top Sales Report by car make from the car sales dataset
+### Scatter Plot of Alcohol vs. Color Intensity:
 
-![Top sales by make](reports/msc.png)
-
-### Top Sales Report by car model from the car sales dataset
-
-![Top sales by make](reports/msm.png)
+![Top sales by make](output3.png)
 
 
 [def]: https://https://github.com/nogibjj/oo46_iProject_1/actions/workflows/actions.yml
