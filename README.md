@@ -1,4 +1,4 @@
-[![Notebook](https://github.com/nogibjj/oo46_iProject_1/actions/workflows/actions.yml/badge.svg)][def]
+[![Notebook](https://github.com/nogibjj/oo46_Mini_Proj_W9/actions/workflows/actions.yml/badge.svg)][def]
 
 # Mini Project Week 9
 
@@ -26,4 +26,4 @@ This project sets up a [cloud-hosted notebook](https://colab.research.google.com
 
 ![A vs C ](Reports/output3.png)
 
-[def]: https://https://github.com/nogibjj/oo46_iProject_1/actions/workflows/actions.yml
+[def]: https://https://github.com/nogibjj/oo46_Mini_Proj_W9/actions/workflows/actions.yml

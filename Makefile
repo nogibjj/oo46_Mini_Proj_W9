@@ -3,10 +3,10 @@ install:
 		pip install -r requirements.txt
 
 format:	
-	black *.py *.ipynb
+	black *.ipynb
 
 lint:
-	ruff check *.py *.ipynb
+	ruff check *.ipynb
 
 #  container-lint:
 #  	docker run --rm -i hadolint/hadolint < Dockerfile
